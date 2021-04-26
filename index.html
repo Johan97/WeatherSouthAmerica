@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./PresentationLayer/index.css" />
+    <link rel="shortcut icon" href="./Images/IconPage.png" />
+    
+
+    <title>Weather - City</title>
+</head>
+<body>
+
+    
+    <div class="title">
+        <h1>SEE WEATHER STATUS</h1>
+    </div>
+    
+    <div class="">
+        <!-- <input id="informationcity" type="text" placeholder="Enter a capital city of South America"> -->
+        <select id="informationcity" > 
+            <option></option>  
+            <option>Asunción</option>
+            <option>Bogotá</option>
+            <option>Brasília</option>
+            <option>Buenos Aires</option>
+            <option>Caracas</option>
+            <option>Lima</option>
+            <option>Montevideo</option>
+            <option>Quito</option>
+            <option>Sucre</option>
+            <option>Santiago</option>
+          </select>
+        <input class="" id="buttondone" type="button" value="Search">
+    </div>
+
+    <div class="showinformation" id="idshowinformation">
+        <h2 id="cityname" class="cityname"></h2>
+        <h2 id="icon"></h2>
+        <ul>
+            <li id="wheater"></li>
+            <li id="temperature"></li>
+            <li id="temperature_min"></li>
+            <li id="temperature_max"></li>
+            <!--<li id="timezone"></li>-->
+            <li id="latitude"></li>
+            <li id="length"></li>
+        </ul>
+    </div>
+
+    <div class="showmaps" id="map">
+        
+    </div>
+
+    <div class="showrest" id="idshowrest">
+        <h2 id="p"></h2>
+        <p id="flag"></p>
+        <p id="region"></p>
+        <p id="population"></p>
+        <p id="demonym"></p>
+       
+    </div>
+
+    <script src="./Logic/Main.js" type=""></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3P2TvzIuX1ZAKeT4KOwHmVyf6yojxeYo&callback=initMap&libraries=&v=weekly" async></script>
+
+
+
+</body>
+</html>

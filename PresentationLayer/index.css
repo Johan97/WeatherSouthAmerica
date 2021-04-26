@@ -1,0 +1,152 @@
+
+body {
+    font-family: 'Roboto';
+    /*background: linear-gradient(to top, #803F32, #FC3D17);*/
+    background: linear-gradient(to right, #60FAFF, white);
+    height: 1500px;
+    padding-top:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --colorTextos: #49454567;
+}
+
+
+/**/
+
+
+select{
+    background: linear-gradient(to right, white, #60FAFF);
+    font-size: 20px;
+    font-family: cursive;
+    border-bottom: 2px solid blanchedalmond;   
+    cursor:  pointer;
+    position: relative;
+    padding: 5px;
+    left: 25%;
+    width: 40%;
+    top: 120px;
+    text-align: center ;
+}
+
+select:hover{
+    background: linear-gradient(to left , white, #60FAFF);
+    color: black;
+}
+
+input[type=button]{
+    background: linear-gradient(to right, white, #60FAFF);
+    width: 10%;
+    font-family: cursive;
+    font-size: 20px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 25%;
+    top: 120px;
+}
+
+input[type=button]:hover{
+    background: linear-gradient(to right, #60FAFF, white );
+}
+
+
+
+.showinformation{
+    background: linear-gradient(to right, white, #60FAFF);
+    visibility: hidden;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    top: 150px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 7, 0.8);
+    border-radius: 10px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.showinformation:hover{
+    background: linear-gradient(to right, #60FAFF, white );
+    cursor: not-allowed;
+}
+
+
+.showmaps{
+    visibility: hidden;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 23%;
+    top: 180px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 7, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.showrest{
+    background: linear-gradient(to right, white, #60FAFF);
+    visibility: hidden;
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    top: 210px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 7, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.showrest:hover{
+    background: linear-gradient(to right, #60FAFF, white );
+    cursor: not-allowed;
+}
+
+.divsearch {
+    background: goldenrod;
+    position: fixed;
+    left: 0%;
+    width: 40%;
+
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    -moz-transition: color 2s ease-in; /* firefox */
+    text-shadow: black 0 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2:hover{
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-style: unset;
+    color: white;
+    -moz-transition: color 1s ease-in; /* firefox */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 6px 6px 0px black, 0 0 10px #fff;
+
+}
+h1:hover{
+        color: black;
+        -moz-transition: color 1s ease-in; /* firefox */
+        text-shadow: 6px 6px 0px #fff, 0 0 10px black;
+}
+
+.title{
+    position: relative;
+    width: 100%;
+    height: 8%;
+    left: 0%;
+    text-align: center;
+    background: linear-gradient(to right, #4568DC, #4568DC );
+    /*background: linear-gradient(to right,  #4568DC, #60FAFF);*/   
+    align-items: center;
+}
